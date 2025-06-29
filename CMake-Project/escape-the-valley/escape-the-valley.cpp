@@ -1,0 +1,12 @@
+﻿// escape-the-valley.cpp : Defines the entry point for the application.
+//
+
+#include "escape-the-valley.h"
+
+using namespace std;
+
+int main()
+{
+	cout << "Hello CMake." << endl;
+	return 0;
+}
