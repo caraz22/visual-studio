@@ -1,0 +1,5 @@
+C:/Users/cszok/Source/Repos/visual-studio/CMake-projects/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/cszok/Source/Repos/visual-studio/CMake-projects/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/cszok/Source/Repos/visual-studio/CMake-projects/out/build/x64-debug/escape-the-valley/CMakeFiles/escape-the-valley.dir
+C:/Users/cszok/Source/Repos/visual-studio/CMake-projects/out/build/x64-debug/escape-the-valley/CMakeFiles/edit_cache.dir
+C:/Users/cszok/Source/Repos/visual-studio/CMake-projects/out/build/x64-debug/escape-the-valley/CMakeFiles/rebuild_cache.dir
