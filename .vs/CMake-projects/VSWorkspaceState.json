@@ -1,14 +1,5 @@
 {
   "OutputFoldersPerTargetSystem": {
-    "Local Machine": [
-      "CMake-projects\\out\\build\\x64-debug",
-      "CMake-projects\\out\\install\\x64-debug",
-      "CMake-projects\\out\\build\\x64-release",
-      "CMake-projects\\out\\install\\x64-release",
-      "CMake-projects\\out\\build\\x86-debug",
-      "CMake-projects\\out\\install\\x86-debug",
-      "CMake-projects\\out\\build\\x86-release",
-      "CMake-projects\\out\\install\\x86-release"
-    ]
+    "Local Machine": []
   }
 }
