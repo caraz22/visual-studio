@@ -5,7 +5,3 @@ This repository is where I will work on projects through Visual Studio.
 
 ### Escape the Valley
 Text-based spin off game of Stardew Valley fully coded in C++.
-
-editing this to see if i can commit and push
-
-editing this again to make sure i can pull
