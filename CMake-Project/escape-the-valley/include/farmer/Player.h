@@ -1,17 +1,19 @@
-#include <iostream>
+#pragma once
+
+#include <string>
 
 using namespace std;
 
 class Player {
-    private:
-    string name;
-    int amountOfGold;
+	private:
+	string name;
+	int amountOfGold;
 
-    public:
-    Player(string);
+	public:
+	Player(string);
 
-    string getName();
-    int getAmountOfGold();
+	string getName();
+	int getAmountOfGold();
 
-    void adjustGold(int, bool);
+	void adjustGold(int, bool);
 };
