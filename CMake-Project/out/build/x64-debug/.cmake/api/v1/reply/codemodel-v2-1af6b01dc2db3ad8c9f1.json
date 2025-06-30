@@ -23,10 +23,10 @@
 					"jsonFile" : "directory-escape-the-valley-Debug-db47cdb97bcf36ad83d3.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.8"
+						"string" : "3.12"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 0,
+					"projectIndex" : 1,
 					"source" : "escape-the-valley",
 					"targetIndexes" : 
 					[
@@ -38,12 +38,23 @@
 			"projects" : 
 			[
 				{
-					"directoryIndexes" : 
+					"childIndexes" : 
 					[
-						0,
 						1
 					],
-					"name" : "CMake-Project",
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CMake-Project"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "escape-the-valley",
+					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
 						0
@@ -55,9 +66,9 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "escape-the-valley::@73dd63e5f87f26772bdb",
-					"jsonFile" : "target-escape-the-valley-Debug-743306d4d60967c2ebb9.json",
+					"jsonFile" : "target-escape-the-valley-Debug-38ac5b3883f2b33c014a.json",
 					"name" : "escape-the-valley",
-					"projectIndex" : 0
+					"projectIndex" : 1
 				}
 			]
 		}
