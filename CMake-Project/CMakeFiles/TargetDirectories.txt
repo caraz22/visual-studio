@@ -1,5 +1,0 @@
-C:/Users/cszok/Source/repos/visual-studio/CMake-Project/CMakeFiles/edit_cache.dir
-C:/Users/cszok/Source/repos/visual-studio/CMake-Project/CMakeFiles/rebuild_cache.dir
-C:/Users/cszok/Source/repos/visual-studio/CMake-Project/escape-the-valley/CMakeFiles/escape-the-valley.dir
-C:/Users/cszok/Source/repos/visual-studio/CMake-Project/escape-the-valley/CMakeFiles/edit_cache.dir
-C:/Users/cszok/Source/repos/visual-studio/CMake-Project/escape-the-valley/CMakeFiles/rebuild_cache.dir
