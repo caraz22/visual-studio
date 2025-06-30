@@ -6,7 +6,7 @@ class Season;
 
 class Festival {
     private:
-    string name;sdf
+    string name;
     Season& season;
     string theme;
 

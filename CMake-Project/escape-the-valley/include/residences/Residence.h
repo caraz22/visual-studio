@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include "villagers/Character.h"
-#include "locations/Location.h"
 
 using namespace std;
 

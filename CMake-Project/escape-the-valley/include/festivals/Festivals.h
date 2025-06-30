@@ -1,4 +1,3 @@
-#include "festivals/Festival.h"
 #include "seasons/Season.h"
 
 extern Festival eggFestival;
@@ -12,7 +11,7 @@ extern Festival feastOfWinterStar;
 
 class Festivals {
     public:
-        Festivals();
+    Festivals();
 
-    vector<Festival> addFestsToSeasons(vector<Festival>, Season);
+    vector<Festival> addFestsToSeasons(const Season&);
 };

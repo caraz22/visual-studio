@@ -93,11 +93,11 @@ build escape-the-valley\CMakeFiles\escape-the-valley.dir\src\crops\Crops.cpp.obj
   TARGET_COMPILE_PDB = escape-the-valley\CMakeFiles\escape-the-valley.dir\
   TARGET_PDB = escape-the-valley\escape-the-valley.pdb
 
-build escape-the-valley\CMakeFiles\escape-the-valley.dir\src\crops\Parsnip.cpp.obj: CXX_COMPILER__escape-the-valley_unscanned_Debug C$:\Users\cszok\Source\repos\visual-studio\CMake-Project\escape-the-valley\src\crops\Parsnip.cpp || cmake_object_order_depends_target_escape-the-valley
+build escape-the-valley\CMakeFiles\escape-the-valley.dir\src\farmer\Player.cpp.obj: CXX_COMPILER__escape-the-valley_unscanned_Debug C$:\Users\cszok\Source\repos\visual-studio\CMake-Project\escape-the-valley\src\farmer\Player.cpp || cmake_object_order_depends_target_escape-the-valley
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   INCLUDES = -IC:\Users\cszok\Source\repos\visual-studio\CMake-Project\escape-the-valley\include
   OBJECT_DIR = escape-the-valley\CMakeFiles\escape-the-valley.dir
-  OBJECT_FILE_DIR = escape-the-valley\CMakeFiles\escape-the-valley.dir\src\crops
+  OBJECT_FILE_DIR = escape-the-valley\CMakeFiles\escape-the-valley.dir\src\farmer
   TARGET_COMPILE_PDB = escape-the-valley\CMakeFiles\escape-the-valley.dir\
   TARGET_PDB = escape-the-valley\escape-the-valley.pdb
 
@@ -110,14 +110,6 @@ build escape-the-valley\CMakeFiles\escape-the-valley.dir\src\festivals\Festival.
   TARGET_PDB = escape-the-valley\escape-the-valley.pdb
 
 build escape-the-valley\CMakeFiles\escape-the-valley.dir\src\festivals\Festivals.cpp.obj: CXX_COMPILER__escape-the-valley_unscanned_Debug C$:\Users\cszok\Source\repos\visual-studio\CMake-Project\escape-the-valley\src\festivals\Festivals.cpp || cmake_object_order_depends_target_escape-the-valley
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
-  INCLUDES = -IC:\Users\cszok\Source\repos\visual-studio\CMake-Project\escape-the-valley\include
-  OBJECT_DIR = escape-the-valley\CMakeFiles\escape-the-valley.dir
-  OBJECT_FILE_DIR = escape-the-valley\CMakeFiles\escape-the-valley.dir\src\festivals
-  TARGET_COMPILE_PDB = escape-the-valley\CMakeFiles\escape-the-valley.dir\
-  TARGET_PDB = escape-the-valley\escape-the-valley.pdb
-
-build escape-the-valley\CMakeFiles\escape-the-valley.dir\src\festivals\SpiritsEve.cpp.obj: CXX_COMPILER__escape-the-valley_unscanned_Debug C$:\Users\cszok\Source\repos\visual-studio\CMake-Project\escape-the-valley\src\festivals\SpiritsEve.cpp || cmake_object_order_depends_target_escape-the-valley
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   INCLUDES = -IC:\Users\cszok\Source\repos\visual-studio\CMake-Project\escape-the-valley\include
   OBJECT_DIR = escape-the-valley\CMakeFiles\escape-the-valley.dir
@@ -237,14 +229,6 @@ build escape-the-valley\CMakeFiles\escape-the-valley.dir\src\villagers\Character
   TARGET_COMPILE_PDB = escape-the-valley\CMakeFiles\escape-the-valley.dir\
   TARGET_PDB = escape-the-valley\escape-the-valley.pdb
 
-build escape-the-valley\CMakeFiles\escape-the-valley.dir\src\villagers\Player.cpp.obj: CXX_COMPILER__escape-the-valley_unscanned_Debug C$:\Users\cszok\Source\repos\visual-studio\CMake-Project\escape-the-valley\src\villagers\Player.cpp || cmake_object_order_depends_target_escape-the-valley
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
-  INCLUDES = -IC:\Users\cszok\Source\repos\visual-studio\CMake-Project\escape-the-valley\include
-  OBJECT_DIR = escape-the-valley\CMakeFiles\escape-the-valley.dir
-  OBJECT_FILE_DIR = escape-the-valley\CMakeFiles\escape-the-valley.dir\src\villagers
-  TARGET_COMPILE_PDB = escape-the-valley\CMakeFiles\escape-the-valley.dir\
-  TARGET_PDB = escape-the-valley\escape-the-valley.pdb
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target escape-the-valley
@@ -253,7 +237,7 @@ build escape-the-valley\CMakeFiles\escape-the-valley.dir\src\villagers\Player.cp
 #############################################
 # Link the executable escape-the-valley\escape-the-valley.exe
 
-build escape-the-valley\escape-the-valley.exe: CXX_EXECUTABLE_LINKER__escape-the-valley_Debug escape-the-valley\CMakeFiles\escape-the-valley.dir\src\crops\Crop.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\crops\Crops.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\crops\Parsnip.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\festivals\Festival.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\festivals\Festivals.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\festivals\SpiritsEve.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\locations\Location.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\locations\Town.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\main.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\residences\1RiverRoad.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\residences\Residence.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\seasons\Season.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\seasons\Seasons.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\seasons\Spring.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\shops\PierresShop.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\shops\Shop.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\tools\Hoe.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\tools\Tool.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\villagers\Alex.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\villagers\Character.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\villagers\Player.cpp.obj
+build escape-the-valley\escape-the-valley.exe: CXX_EXECUTABLE_LINKER__escape-the-valley_Debug escape-the-valley\CMakeFiles\escape-the-valley.dir\src\crops\Crop.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\crops\Crops.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\farmer\Player.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\festivals\Festival.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\festivals\Festivals.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\locations\Location.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\locations\Town.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\main.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\residences\1RiverRoad.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\residences\Residence.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\seasons\Season.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\seasons\Seasons.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\seasons\Spring.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\shops\PierresShop.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\shops\Shop.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\tools\Hoe.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\tools\Tool.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\villagers\Alex.cpp.obj escape-the-valley\CMakeFiles\escape-the-valley.dir\src\villagers\Character.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

@@ -1,12 +1,17 @@
-﻿// escape-the-valley.cpp : Defines the entry point for the application.
-//
-
-#include "escape-the-valley.h"
+#include <iostream>
+#include "festivals/Festivals.h"
+#include "seasons/Seasons.h"
 
 using namespace std;
 
-int main()
-{
-	cout << "Hello CMake." << endl;
-	return 0;
+int main() {
+    Festivals festivalManager;
+
+    vector<Festival> springFestivals = festivalManager.addFestsToSeasons(spring);
+    vector<Festival> summerFestivals = festivalManager.addFestsToSeasons(summer);
+    vector<Festival> fallFestivals = festivalManager.addFestsToSeasons(fall);
+    vector<Festival> winterFestivals = festivalManager.addFestsToSeasons(winter);
+
+
+    cout << "Hello, World!";
 }

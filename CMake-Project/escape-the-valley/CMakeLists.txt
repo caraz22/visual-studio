@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 project(escape-the-valley)
 
 # Gather all .cpp and .h files
-file(GLOB SRC_FILES "src/*.cpp" "src/*/*.cpp")
+file(GLOB_RECURSE SRC_FILES "src/*.cpp")
 file(GLOB HEADER_FILES "include/*/*.h")
 
 # Add source files to this project's executable.
