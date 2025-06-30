@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\escape-the-valley",
+    "\\escape-the-valley\\src"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\escape-the-valley",
   "PreviewInSolutionExplorer": false
 }
