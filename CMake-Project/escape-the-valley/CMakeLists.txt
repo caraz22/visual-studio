@@ -1,12 +1,15 @@
-﻿# CMakeList.txt : CMake project for escape-the-valley, include source and define
-# project specific logic here.
-#
+﻿cmake_minimum_required(VERSION 3.12)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Add source to this project's executable.
-add_executable (escape-the-valley "escape-the-valley.cpp" "escape-the-valley.h")
+# Project name
+project(escape-the-valley)
 
-if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET escape-the-valley PROPERTY CXX_STANDARD 20)
-endif()
+# Gather all .cpp and .h files
+file(GLOB SRC_FILES "src/*/*.cpp")
+file(GLOB HEADER_FILES "include/*/*.h")
 
-# TODO: Add tests and install targets if needed.
+# Add source files to this project's executable.
+add_executable (escape-the-valley ${SRC_FILES})
+target_sources(escape-the-valley PRIVATE ${HEADER_FILES})
+target_include_directories(escape-the-valley PRIVATE include)
